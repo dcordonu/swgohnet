@@ -1,0 +1,19 @@
+pkgbase = swgohnet
+	pkgdesc = Client for swgohNet - api.swgoh.help updating network
+	pkgver = 2.0.1
+	pkgrel = 1
+	url = https://api.swgoh.help/swgohNet
+	install = swgohnet.install
+	arch = x86_64
+	options = !strip
+	source = swgohnet.service
+	source = swgohnet.conf
+	source = swgohnet.install
+	source = https://raw.githubusercontent.com/r3volved/api-swgohNet/master/x64/tar-gz/swgohNet_Client-linux.tar.gz
+	md5sums = 7c22eefff28ff07f68ae082dc2ce0014
+	md5sums = 3654527dfc37a9a99a3bd6065080757b
+	md5sums = 5a650db1c23d75f1bb454a071e0a5b5c
+	md5sums = 05a8b8c849951f73987c338137f7980b
+
+pkgname = swgohnet
+

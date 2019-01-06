@@ -1,0 +1,7 @@
+post_install() {
+        echo "Optionally edit /etc/swgohnet/swgohnet.conf to provide your ally code"
+}
+post_upgrade() {
+        echo "Optionally edit /etc/swgohnet/swgohnet.conf to provide your ally code"
+}
+

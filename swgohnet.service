@@ -1,0 +1,10 @@
+[Unit]
+Description="SwgohNet distributed updating system client"
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+EnvironmentFile=/etc/swgohnet/swgohnet.conf
+ExecStart=/usr/bin/swgohnet ${ALLY_CODE}
+
